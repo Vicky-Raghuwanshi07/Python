@@ -1,10 +1,10 @@
-from words import word
-from hangman_draw import lives_draw
-import random
+from words import word    ### this will import a word list from words.py which contains number of words
+from hangman_draw import lives_draw   ### this will shows the progress and lives
+import random 
 import string
 
 def guess_words(word):
-	g_word = random.choice(word)
+	g_word = random.choice(word)     ## choosing random word from words.py
 	if "-" in g_word or " " in g_word:
 		g_word = random.choice(word)
 	
