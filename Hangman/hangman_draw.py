@@ -1,3 +1,5 @@
+## in lives_draw dict we have 0,1,2,3,4,5 as keys and this keys contains values of a hangman stage by stage
+
 lives_draw= {
         0: f"""
                 ___________
